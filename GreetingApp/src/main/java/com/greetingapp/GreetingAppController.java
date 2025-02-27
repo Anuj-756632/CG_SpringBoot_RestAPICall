@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/greeting")
 public class GreetingAppController {
 
+    //Use Case 1
     // GET Method - Returns a simple greeting in JSON
     @GetMapping
     public Greeting getGreeting() {
